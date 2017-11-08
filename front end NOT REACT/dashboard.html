@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feels - Welcome</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Muli" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+	
+	<div id="wrapper">
+		<div id="logo">
+			<h1>Feels</h1>
+		</div>
+
+		<div id="pics">
+			<img src="images/photobanner.jpg" alt="photo banner of girl laughing, movie reel, burger, and popcorn">
+		</div>
+
+		<h3>Welcome</h3>
+		
+		<div id="dashboard">
+
+			<div id="start">
+				<h5>Start Emotion Predictor</h5>
+				<img src="images/start.png" alt="heart eye emoji" width="316" height="320" id="startpic"/>
+				<br/>
+				<button class="dash-button" id="start-button">Start!</button>
+			</div>
+
+			<div id="preferences">
+				<h5>Your Preferences</h5>
+									
+				<h5>Food Preferences</h5>
+				<p>Foods you'd like to <b>EXCLUDE</b> from your search results (feel free to edit)</p>
+				
+				<form name="updatePrefs">
+				<Input name='american' id="american" type='checkbox' value="american" /><label for="american" style="color: black">American</label>
+				<Input name='bakedgoods' id="bakedgoods" type='checkbox' value="bakedgoods" /><label for= "bakedgoods" style="color: black">Baked Goods</label>
+				<Input name='bbq' id="bbq" type='checkbox' value="bbq" /><label for= "bbq" style="color: black">BBQ</label>
+				<Input name='caribbean' id="caribbean" type='checkbox' value="caribbean" /><label for="caribbean" style="color: black">Caribbean</label>
+				<Input name='chinese' id="chinese" type='checkbox' value="chinese" /><label for="chinese" style="color: black">Chinese</label>
+				<Input name='comfort' id="comfort" type='checkbox' value="comfort" /><label for="comfort" style="color: black">Comfort</label>
+				<Input name='fastfood' id="fastfood" type='checkbox' value="fastfood" /><label for="fastfood" style="color: black">Fast Food</label>
+				<Input name='french' id="french" type='checkbox' value="french" /><label for="french" style="color: black">French</label>
+				<Input name='german' id="german" type='checkbox' value="german" /><label for="german" style="color: black">German</label>
+				<Input name='icecream' id="icecream" type='checkbox' value="icecream" /><label for="icecream" style="color: black">Ice Cream</label>
+				<Input name='indian' id="indian" type='checkbox' value="indian" /><label for="indian" style="color: black">Indian</label>
+				<Input name='italian' id="italian" type='checkbox' value="italian" /><label for="italian" style="color: black">Italian</label>
+				<Input name='japanese' id="japanese" type='checkbox' value="japanese" /><label for="japanese" style="color: black">Japanese</label>
+				<Input name='latin' id="latin" type='checkbox' value="latin" /><label for="latin" style="color: black">Latin</label>
+				<Input name='mediterranean' id="mediterranean" type='checkbox' value="mediterranean" /><label for="mediterranean" style="color: black">Mediterranean</label>
+				<Input name='mexican' id="mexican" type='checkbox' value="mexican" /><label for="mexican">Mexican</label>
+				<Input name='pizza' id="pizza" type='checkbox' value="pizza" /><label for="pizza" style="color: black">Pizza</label>
+				<Input name='sandwiches' id="sandwiches" type='checkbox' value="sandwiches" /><label for="sandwiches" style="color: black">Sandwiches</label>
+				<Input name='steak' id="steak" type='checkbox' value="steak" /><label for="steak" style="color: black">Steak</label>
+				<Input name='surfturf' id="surfturf" type='checkbox' value="surfturf" /><label for="surfturf" style="color: black">Surf n Turf</label>
+				<Input name='tapas' id="tapas" type='checkbox' value="tapas" /><label for="tapas" style="color: black">Tapas</label>
+				<Input name='thai' id="thai" type='checkbox' value="thai" /><label for="thai" style="color: black">Thai</label>
+				
+				<h5>Movie Preferences</h5>
+				<p>Movie genres you'd like to <b>EXCLUDE</b> from your search results (feel free to edit)</p>
+				<Input name='action' id="action" type='checkbox' value="action" /><label for="action" style="color: black">Action</label>
+				<Input name='adventure' id="adventure" type='checkbox' value="adventure" /><label for="adventure" style="color: black">Adventure</label>
+				<Input name='animation' id="animation" type='checkbox' value="animation" /><label for="animation" style="color: black">Animation</label>
+				<Input name='comedy' id="comedy" type='checkbox' value="comedy" /><label for="comedy" style="color: black">Comedy</label>
+				<Input name='crime' id="crime" type='checkbox' value="crime" /><label for="crime" style="color: black">Crime</label>
+				<Input name='documentary' id="documentary" type='checkbox' value="documentary" /><label for="documentary" style="color: black">Documentary</label>
+				<Input name='drama' id="drama" type='checkbox' value="drama" /><label for="drama" style="color: black">Drama</label>
+				<Input name='family' id="family" type='checkbox' value="family" /><label for="family" style="color: black">Family</label>
+				<Input name='fantasy' id="fantasy" type='checkbox' value="fantasy" /><label for="fantasy" style="color: black">Fantasy</label>
+				<Input name='history' id="history" type='checkbox' value="history" /><label for="history" style="color: black">History</label>
+				<Input name='horror' id="horror" type='checkbox' value="horror" /><label for="horror" style="color: black">Horror</label>
+				<Input name='musical' id="musical" type='checkbox' value="musical" /><label for="musical" style="color: black">Musical</label>
+				<Input name='mystery' id="mystery" type='checkbox' value="mystery" /><label for="mystery" style="color: black">Mystery</label>
+				<Input name='romance' id="romance" type='checkbox' value="romance" /><label for="romance" style="color: black">Romance</label>
+				<Input name='scifi' id="scifi" type='checkbox' value="scifi" /><label for="scifi" style="color: black">Sci-Fi</label>
+				<Input name='thriller' id="thriller" type='checkbox' value="thriller" /><label for="thriller" style="color: black">Thriller</label>
+				<Input name='war' id="war" type='checkbox' value="war" /><label for="war" style="color: black">War</label>
+				<Input name='western' id="western" type='checkbox' value="western" /><label for="western" style="color: black">Western</label>
+				<br>
+				<button type="submit" id="update" class="dash-button">Save Updated Preferences</button>
+			</form>
+			</div>
+			
+			<div id="mood-tracker">
+				<h5>Mood Tracker</h5>
+			</div>
+
+			<div id="time-temp">
+				<h5>Time &amp; Temp</h5>
+			</div>
+
+		</div>
+		
+	</div>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+</body>
+</html>

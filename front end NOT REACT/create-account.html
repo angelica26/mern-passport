@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feels - Create an Account</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Muli" rel="stylesheet">
+</head>
+<body>
+	
+	<div id="wrapper">
+
+		<div id="logo">
+			<h1>Feels</h1>
+		</div>
+
+		<div id="pics">
+			<img src="images/photobanner.jpg" alt="photo banner of girl laughing, movie reel, burger, and popcorn">
+		</div>
+
+		<h3>Create an Account</h3>
+		<div id="account-form-div">
+			<form id="create-account">
+				<Input placeholder="First Name" type="text" label="First Name" name="firstName" className="account" />
+				<Input placeholder="Last Name" type="text" label="Last Name" name="lastName" />
+				<Input placeholder="Password" type="password" label="Password" name="password"/>
+				<Input placeholder="Re-enter Password" type="password" label="Re-enter Password" name="reEnterPassword" />
+				<Input placeholder="Email" type="email" label="Email" name="email" />
+				<Input placeholder="Primary location (zipcode)" type="text" label="Email" name="primaryZipcode" />
+				
+				<h4>Food Preferences</h4>
+				<p>Select any foods you'd like <b>EXCLUDE</b> from your search results (this can be edited at any time)</p>
+								
+				<Input name='american' id="american" type='checkbox' value="american" /><label for="american">American</label>
+				<Input name='bakedgoods' id="bakedgoods" type='checkbox' value="bakedgoods" /><label for= "bakedgoods">Baked Goods</label>
+				<Input name='bbq' id="bbq" type='checkbox' value="bbq" /><label for= "bbq">BBQ</label>
+				<Input name='caribbean' id="caribbean" type='checkbox' value="caribbean" /><label for="caribbean">Caribbean</label>
+				<Input name='chinese' id="chinese" type='checkbox' value="chinese" /><label for="chinese">Chinese</label>
+				<Input name='comfort' id="comfort" type='checkbox' value="comfort" /><label for="comfort">Comfort</label>
+				<Input name='fastfood' id="fastfood" type='checkbox' value="fastfood" /><label for="fastfood">Fast Food</label>
+				<Input name='french' id="french" type='checkbox' value="french" /><label for="french">French</label>
+				<Input name='german' id="german" type='checkbox' value="german" /><label for="german">German</label>
+				<Input name='icecream' id="icecream" type='checkbox' value="icecream" /><label for="icecream">Ice Cream</label>
+				<Input name='indian' id="indian" type='checkbox' value="indian" /><label for="indian">Indian</label>
+				<Input name='italian' id="italian" type='checkbox' value="italian" /><label for="italian">Italian</label>
+				<Input name='japanese' id="japanese" type='checkbox' value="japanese" /><label for="japanese">Japanese</label>
+				<Input name='latin' id="latin" type='checkbox' value="latin" /><label for="latin">Latin</label>
+				<Input name='mediterranean' id="mediterranean" type='checkbox' value="mediterranean" /><label for="mediterranean">Mediterranean</label>
+				<Input name='mexican' id="mexican" type='checkbox' value="mexican" /><label for="mexican">Mexican</label>
+				<Input name='pizza' id="pizza" type='checkbox' value="pizza" /><label for="pizza">Pizza</label>
+				<Input name='sandwiches' id="sandwiches" type='checkbox' value="sandwiches" /><label for="sandwiches">Sandwiches</label>
+				<Input name='steak' id="steak" type='checkbox' value="steak" /><label for="steak">Steak</label>
+				<Input name='surfturf' id="surfturf" type='checkbox' value="surfturf" /><label for="surfturf">Surf n Turf</label>
+				<Input name='tapas' id="tapas" type='checkbox' value="tapas" /><label for="tapas">Tapas</label>
+				<Input name='thai' id="thai" type='checkbox' value="thai" /><label for="thai">Thai</label>
+				
+				<h4>Movie Preferences</h4>
+				<p>Select which movie genres you want to <b>EXCLUDE</b> from your search results (this can be edited at any time)</p>
+				<Input name='action' id="action" type='checkbox' value="action" /><label for="action">Action</label>
+				<Input name='adventure' id="adventure" type='checkbox' value="adventure" /><label for="adventure">Adventure</label>
+				<Input name='animation' id="animation" type='checkbox' value="animation" /><label for="animation">Animation</label>
+				<Input name='comedy' id="comedy" type='checkbox' value="comedy" /><label for="comedy">Comedy</label>
+				<Input name='crime' id="crime" type='checkbox' value="crime" /><label for="crime">Crime</label>
+				<Input name='documentary' id="documentary" type='checkbox' value="documentary" /><label for="documentary">Documentary</label>
+				<Input name='drama' id="drama" type='checkbox' value="drama" /><label for="drama">Drama</label>
+				<Input name='family' id="family" type='checkbox' value="family" /><label for="family">Family</label>
+				<Input name='fantasy' id="fantasy" type='checkbox' value="fantasy" /><label for="fantasy">Fantasy</label>
+				<Input name='history' id="history" type='checkbox' value="history" /><label for="history">History</label>
+				<Input name='horror' id="horror" type='checkbox' value="horror" /><label for="horror">Horror</label>
+				<Input name='musical' id="musical" type='checkbox' value="musical" /><label for="musical">Musical</label>
+				<Input name='mystery' id="mystery" type='checkbox' value="mystery" /><label for="mystery">Mystery</label>
+				<Input name='romance' id="romance" type='checkbox' value="romance" /><label for="romance">Romance</label>
+				<Input name='scifi' id="scifi" type='checkbox' value="scifi" /><label for="scifi">Sci-Fi</label>
+				<Input name='thriller' id="thriller" type='checkbox' value="thriller" /><label for="thriller">Thriller</label>
+				<Input name='war' id="war" type='checkbox' value="war" /><label for="war">War</label>
+				<Input name='western' id="western" type='checkbox' value="western" /><label for="western">Western</label>
+				<br>
+				<button type="submit" id="submit-new-account">Submit</button>
+			</form>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+</body>
+</html>
