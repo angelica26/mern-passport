@@ -221,13 +221,17 @@ button {
 	margin-bottom: 25px;
 }*/
 
-#dashboard {
+#dashboard, #results {
 	background-color: #d80019;
 	border-radius: 5px;
 	box-shadow: 7px 7px 5px #252728;
 	padding: 30px;
 	margin-bottom: 25px;
 
+}
+
+#results {
+	color: #fff;
 }
 
 #mood-tracker, #start, #time-temp {
